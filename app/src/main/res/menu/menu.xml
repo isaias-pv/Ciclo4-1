@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optionProducts"
+        android:title="@string/option_products" />
+    <item
+        android:id="@+id/optionServices"
+        android:title="@string/option_services" />
+    <item
+        android:id="@+id/optionBranches"
+        android:title="@string/option_branches" />
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PANE</string>
+    <!--Variables del menú-->
+    <string name="option_products">Productos</string>
+    <string name="option_services">Servicios</string>
+    <string name="option_branches">Sucursales</string>
+    <!--Variables de contenido de productos-->
+    <string name="products_message_one">Producto 1</string>
+    <string name="products_message_two">Producto 2</string>
+    <string name="products_message_three">Producto 3</string>
+    <!--Variables de contenido de productos-->
+    <string name="services_message_one">Servicio 1</string>
+    <string name="services_message_two">Servicio 2</string>
+    <string name="services_message_three">Servicio 3</string>
+    <!--Variables de contenido de productos-->
+    <string name="branches_message_one">Sucursal 1</string>
+    <string name="branches_message_two">Sucursal 2</string>
+    <string name="branches_message_three">Sucursal 3</string>
+</resources>

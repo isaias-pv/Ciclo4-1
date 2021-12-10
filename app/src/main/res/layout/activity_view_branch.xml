@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.ViewBranch">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="408dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageBackgroundBranchs"
+                android:layout_width="412dp"
+                android:layout_height="137dp"
+                android:src="@drawable/imgsucursales"
+                tools:srcCompat="@drawable/imgsucursales" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/tablaProductOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/branch_img_one"
+                    android:layout_width="104dp"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@drawable/sucursal_1" />
+
+                <TextView
+                    android:id="@+id/branch_one"
+                    android:layout_width="282dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/branches_message_one" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/branch_img_two"
+                    android:layout_width="93dp"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@drawable/sucursal_2" />
+
+                <TextView
+                    android:id="@+id/branch_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/branches_message_two" />
+            </TableRow>
+
+        </TableLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+com/example/app_v10/BuildConfig.java
+ com.example.app_v10.BuildConfig
+com/example/app_v10/MainActivity.java
+ com.example.app_v10.MainActivity
+com/example/app_v10/View/ViewService.java
+ com.example.app_v10.View.ViewService
+com/example/app_v10/View/ViewProduct.java
+ com.example.app_v10.View.ViewProduct
+com/example/app_v10/View/ViewBranch.java
+ com.example.app_v10.View.ViewBranch
